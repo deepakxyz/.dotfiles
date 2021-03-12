@@ -1,0 +1,1 @@
+wt ; split-pane -p "Ubuntu" -V; split-pane -p "Ubuntu" -H -d "Y:/"
