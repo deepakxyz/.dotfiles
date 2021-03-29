@@ -6,4 +6,5 @@ for i in sys.stdin:
     del splitStr[:2]
     splitStr[0] = (splitStr[0] + ":")
     h = "/".join(splitStr)
+    h.strip()
     print(h)
